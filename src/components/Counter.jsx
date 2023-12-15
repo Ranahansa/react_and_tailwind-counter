@@ -13,11 +13,11 @@ const Counter = () => {
 
     <section className="buttons w-[40rem] flex justify-around mt-20">
             
-            <button className="btn" 
-            onClick={() => setCount((prevCount) => (prevCount + 1))}>Increase</button>
-            <button className="btn" 
-            onClick={() => setCount((prevCount) => (prevCount - 1))}>Decrease</button>
-            <button className="btn" 
+            <button className="btn px-[20px] py-[10px] rounded-[100px] text-[2rem] bg-[#141517] text-[#fff] cursor-pointer hover:bg-sky-300" 
+            onClick={() => setCount((prevCount) => (prevCount + 1))}>+</button>
+            <button className="btn btn px-[20px] py-[10px] rounded-[100px] text-[2rem] bg-[#141517] text-[#fff] cursor-pointer hover:bg-sky-300" 
+            onClick={() => setCount((prevCount) => (prevCount - 1))}>-</button>
+            <button className="btn btn px-[20px] py-[10px] rounded-[100px] text-[2rem] bg-[#141517] text-[#fff] cursor-pointer hover:bg-sky-300" 
             onClick={() => setCount(0)}>Reset</button>
     </section>
     
