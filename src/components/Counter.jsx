@@ -5,10 +5,10 @@ const Counter = () => {
     const [count, setCount] = useState(0)
 
     return (
-<>
+<div className="bg-gray-800 h-screen flex flex-col justify-center items-center text-center">
     <div className="container">
 
-        <h1 className="number">{count}</h1>
+        <h1 className="number text-3xl">{count}</h1>
     </div>
 
     <section className="buttons">
@@ -21,7 +21,7 @@ const Counter = () => {
             onClick={() => setCount(0)}>Reset</button>
     </section>
     
-</>
+</div>
 
     )
 }
